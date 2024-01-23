@@ -7,7 +7,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node src/server.ts",
+    "vercel-build": "npx prisma migrate deploy",
     "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
